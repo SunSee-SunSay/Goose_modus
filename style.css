@@ -1,0 +1,405 @@
+body {
+	margin:0;
+	background-color:rgb(243, 243, 243);
+}
+
+.header {
+	background: rgb(112, 197, 112);
+	height:80px;
+	color:white;
+	white-space: nowrap;
+}
+
+.header .main-title {
+	margin-left: 170px;
+    width: 170px;
+    font-size: 26px;
+    height: 100%;
+    line-height: 80px;
+	float: left;
+}
+
+.header .menu {
+	margin-left: 440px;
+}
+
+.header .menu ul{
+	margin:0px;
+	padding:0px;
+	list-style: none;
+	height:80px;
+}
+
+
+.header .menu ul li {
+	display: inline-block;
+	margin-right:10px;
+	border-radius: 5px;
+	padding: 10px 15px;
+    margin-top: 21px;
+	position:relative;
+}
+
+.header .menu ul li.active {
+	background:rgb(94, 161, 94);
+	box-shadow: 0px 3px rgb(78, 138, 78);
+}
+
+
+.header .menu ul li:hover {
+	background:rgb(227, 107, 44);
+	box-shadow: 0px 3px rgb(220, 89, 37);
+}
+
+.header .menu ul li  i {
+	padding-right:5px;
+}
+
+.header .menu .sub-menu {
+	display:none;
+	z-index: 100;
+}
+.header .menu ul li:hover  > .sub-menu {
+	display:block;
+}
+.header .menu .sub-menu {
+	position:absolute;
+	background: rgb(220, 89, 37);
+	height: auto;
+	top: 55px;
+  left: 0px;
+	border-radius: 5px;
+}
+.header .menu .sub-menu  li {
+	display: block;
+	margin: 0;
+	width: 200px;
+	background: rgb(224, 106, 59);
+	margin:5px 5px 0px 5px;
+}
+
+.header .menu .sub-menu  li:last-child {
+	margin-bottom:5px;
+}
+.header .menu .sub-menu  li:hover {
+	background:rgb(112, 197, 112);
+}
+
+.header .menu .sub-menu:before {
+  content:" ";
+  display:block;
+  position: absolute;
+  left: 15px;
+  top: -20px;
+  border: 10px solid transparent;
+  border-bottom: 10px solid rgb(220, 89, 37);
+}
+
+.slider {
+	position:relative;
+}
+
+.slider .slide  img{
+	height: 500px;
+	width:100%;
+}
+
+.slider .slide .title {
+	position:absolute;
+	top:160px;
+	width:100%;
+	text-align:center;
+}
+
+.slider .slide .desc {
+	width: 470px;
+    display: inline-block;
+    background: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    top: 210px;
+    left:50%;
+	margin-left: -235px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.slider .slide .title span {
+	display:inline-block;
+	color:white;
+	font-size: 35px;
+  font-weight: bold;
+	background:rgb(220, 89, 37);
+	padding: 1px 5px;
+	border-radius:5px;
+}
+
+.slider .sl {
+	width:100%;
+	text-align:center;
+	margin-top: 5px;
+}
+
+.slider  .sl .sl1 {
+	display:inline-block;
+	width:60px;
+	height:6px;
+	background:rgb(176, 184, 185);
+	margin-right:10px;
+} 
+.slider  .sl .sl1.active {
+	background:rgb(220, 89, 37);
+}
+
+.slider i {
+	color: white;
+  font-size: 40px;
+	line-height: 58px;
+}
+
+.slider .right,
+.slider .left {
+	display:inline-block;
+	text-align:center;
+	position: absolute;
+	width:50px;
+	height:60px;
+	background:rgb(220, 89, 37);
+	border-radius: 3px;
+	top:220px;
+}
+
+.slider .right {
+	right:0px;
+}
+
+.top_serv.clearfix {
+	width:80%;
+	margin: 15px auto 20px;
+	border-radius: 5px;
+	background-color:rgb(236, 236, 236);
+	padding:15px 20px;
+}
+
+.top_serv  h2 {
+	padding: 0px;
+	margin: 5px 10px;
+	font-size:35px;
+	font-weight:normal;
+	color:rgb(127, 140, 141);
+}
+
+.top_serv  span {
+	padding: 0px;
+	margin: 5px 10px;
+	color:rgb(127, 140, 141);
+}
+
+.top_serv  .about_1 {
+	float:left;
+	text-align:left;
+}
+.top_serv .see_more {
+	width: 8%;
+    text-align: center;
+	margin-top: 9px;
+    margin-right: 5px;
+	float:right;
+	color: white;
+	font-size: 15px;
+	border-radius: 3px;
+	background-color:rgb(224, 106, 59);
+	padding:15px 25px;
+	text-transform: uppercase;
+	box-shadow: 0px 3px rgb(220, 89, 37);
+}
+
+.top_serv .see_more:hover {
+	background:rgb(112, 197, 112);
+	box-shadow: 0px 3px rgb(78, 138, 78);
+}
+
+.top_serv.clearfix::after {
+	content: "";
+    display: table;
+    clear: both;
+}
+
+.tabs {
+	width: 82%;
+	margin: 40px auto;
+	color:rgb(127, 140, 141);
+	display: flex;
+	font-size: 0;
+	margin-bottom: 100px;
+}
+
+.tabs .tab {
+	font-size: 16px;
+	width:25%;
+	display:inline-block;
+	text-align:center;
+	background-color: #f8f8f8;
+	border-radius: 8px;
+	margin-right: 2%;
+	padding:2px;
+	min-height:350px;
+	position:relative;
+	box-shadow: 0px 5px #e5e6e6;
+}
+
+.tabs .tab .middle {
+	position:absolute;
+	    margin: 40px 41px;
+}
+
+.tabs .tab i {
+	font-size:80px;
+	color:rgb(112, 197, 112);
+}
+
+.tabs .tab h2: {
+	margin-top:15px;
+}
+
+.tabs .tab .middle p {
+	line-height: 1.5;
+}
+
+.tabs .tab.t4 {
+	margin-right:0px;
+}
+
+.tabs .tab .but {
+	display:inline-block;
+	position:absolute;
+	border-radius:3px;
+	border: 1px solid #86d186;
+    background-color: #86d186;
+    color: white;
+    width: 76%;
+    bottom: -31px;
+    left: 12%;
+	box-shadow: 0px 5px #70c570;
+	font-size:20px;
+}
+
+.tabs .tab:hover {
+	background-color: #ffffff;
+}
+
+.tabs .tab:hover i {
+	color: #e36b2c;
+}
+
+.tabs .tab:hover .but {
+	background-color: #e36b2c;
+	border-color: #e36b2c;
+	box-shadow: 0px 3px rgb(220, 89, 37);
+}
+
+
+.picture {
+	width: 100%;
+	height:350px;
+	background-color: #ececec;
+	padding-top: 40px;
+	position: absolute;
+}
+
+.picture h1 {
+	color: #dc5925;
+	text-align:center;
+	margin-bottom:0px;
+}
+
+.picture p {
+	color: #a3a3a3;
+	text-align:center;
+	margin-top: 5px;
+}
+
+.picture .p1 {
+    position: relative;
+	z-index:1;
+    height: 380px;
+    width: 34%;
+    background-color: #c1c7c8;
+    border-radius: 10px;
+    left: 33%;
+    top: 30px;
+}
+
+.picture .p1 .img1 {
+    position: absolute;
+    height: 86%;
+    width: 98%;
+    border-radius: 10px;
+    top: 13%;
+    left: 1%;
+}
+
+.picture .p2 {
+    position: relative;
+    height: 320px;
+    width: 25%;
+    background-color: #c1c7c8;
+    border-radius: 10px;
+    left: 62%;
+    bottom: 314px;
+}
+
+.picture .p2 .img2 {
+    position: absolute;
+    height: 85%;
+    width: 98%;
+    border-radius: 10px;
+    top: 13%;
+    left: 1%;
+}
+
+.picture .p3 {
+    position: relative;
+    height: 320px;
+    width: 25%;
+    background-color: #c1c7c8;
+    border-radius: 10px;
+    right: -13%;
+    bottom: 634px;
+}
+
+.picture .p3 .img3 {
+    position: absolute;
+    height: 85%;
+    width: 98%;
+    border-radius: 10px;
+    top: 13%;
+    left: 1%;
+}
+
+.picture .round {
+	position: relative;
+	border: 1px solid red;
+	width:3%;
+	height:8%;
+}
+
+.picture .round .r {
+	position: absolute;
+	background-color:#ececec;
+	width:12px;
+	height:12px;
+	border-radius:50%;
+}
+
+.picture .round .r1 {
+    left: 17px;
+    top: 0px;
+}
+
+.picture .round .r3 {
+    left: 34px;
+    top: 0px;
+}
