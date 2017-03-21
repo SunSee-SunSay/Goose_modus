@@ -476,13 +476,63 @@ body {
 	line-height:2;
 }
 
-.info .inf2:after {
+.info .inf2 .comment:before, 
+.info .inf2 .comment:after {
     content: '';
     display: block;
     width: 0;
     height: 0;
+}
+
+.info .inf2 .comment:before {
     border-top: 25px solid #f8f8f8;
     border-left: 25px solid transparent;
-    position: relative;
+    position: absolute;
     left: 8%;
+    bottom: -1.5em;
+}
+
+.info .inf2 .comment:after {
+    content: 'Jhon Doe';
+    color: #70c570;
+    width: 30%;
+    position: absolute;
+    left: 22%;
+    bottom: 1%;
+    font-weight: bold;
+    font-size: large;
+}
+
+.half_c {
+    width: 150px;
+    height: 80px;
+    position: absolute;
+    border-radius: 250px 250px 0px 0px;
+}
+
+.half_c .c1 {
+	width: 80px;
+    height: 80px;
+    position: absolute;
+    border-radius: 250px 250px 0px 0px;
+	background: linear-gradient(90deg,#dc5925 50%,#70c570 50%);
+}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }
