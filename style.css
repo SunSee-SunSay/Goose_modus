@@ -422,50 +422,68 @@ body {
     position: relative;
 }
 
-.info .inf1 ul i {
-	color: #70c570;
-}
-
-.info .inf1 h3 {
-	color: #7f8c8c;
-	margin-left: 2%;
+.info .inf1 {
+    width: 15%;
+    color: #7f8c8c;
+    position: relative;
+    top: 20%;
+    left: 11%;
 }
 
 .info .inf1 ul {
 	list-style-type:none;
 	line-height:2;
-	color: rgb(127, 140, 141);
 }
 
-.info .inf1 {
-	position: relative;
-    top: 21%;
-    left: 11%;
+.info .inf1 ul li i{
+	color: #70c570;
 }
 
-.info .text a {
-	color: #dc5925;
+.info .inf1 h3 {
+	margin-left: 13%;
 }
 
 .info .text {
 	position: relative;
-    top: -4%;
+    top: -5%;
     left: 36%;
     width: 30%;
     line-height: 1.5;
     color: rgb(127, 140, 141);
 }
 
-.info .inf2 {
-    position: relative;
-    color: rgb(127, 140, 141);
-    left: 70%;
-    bottom: 10%;
+.info .text a {
+	color: #dc5925;
 }
 
-.info .inf2 span {
-	border-radius:5px;
-	background-color:#f8f8f8;
-	padding: 1%;
-    line-height: 1.5;
+.info .inf2 {
+	position:relative;
+	top:-11%;
+	left:70%;
+	width:15%;
+	color: rgb(127, 140, 141);
 }
+
+.info .inf2 h3 {
+	margin-top: 5%;
+	font-weight:;
+}
+
+.info .inf2 .comment {
+	border-radius: 5px;
+    background-color: #f8f8f8;
+    padding: 3%;
+	line-height:2;
+}
+
+.info .inf2:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 25px solid #f8f8f8;
+    border-left: 25px solid transparent;
+    position: relative;
+    left: 8%;
+}
+ыуыуачпач
