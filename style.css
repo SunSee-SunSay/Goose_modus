@@ -460,7 +460,7 @@ body {
 .info .inf2 {
 	position:relative;
 	top:-11%;
-	left:70%;
+	left:71%;
 	width:15%;
 	color: rgb(127, 140, 141);
 }
@@ -505,13 +505,22 @@ body {
 }
 
 .half_c {
+	font-size:0px;
     position: absolute;
     border-radius: 250px 250px 0px 0px;
 	bottom: 60%;
-    left: 34%
+    left: 33%
+}
+
+.half_c .c {
+	display: inline-block;
+	margin-left:15px;
+	width: 150px;
+    height: 80px;
 }
 
 .half_c .c1 {
+	margin-left:0px;
 	display: inline-block;
     width: 150px;
     height: 80px;
@@ -519,32 +528,26 @@ body {
     background: linear-gradient(90deg,#dc5925 50%,#70c570 50%);
 	
 }	
-
-.half_c .c {
-	display: inline-block;
-	width: 150px;
-    height: 80px;
-}
 	
 .half_c .c2 {
 	width: 150px;
     height: 80px;
     border-radius: 250px 250px 0px 0px;
-    background: linear-gradient(90deg,#dc5925 50%,#70c570 50%);
+    background: linear-gradient(-230deg,#dc5925 60%,#70c570 40%);
 }	
 	
 .half_c .c3 {
 	width: 150px;
     height: 80px;
     border-radius: 250px 250px 0px 0px;
-    background: linear-gradient(90deg,#dc5925 50%,#70c570 50%);
+    background: linear-gradient(141deg,#dc5925 70%,#70c570 30%);
 }	
 	
 .half_c .c4 {
 	width: 150px;
     height: 80px;
     border-radius: 250px 250px 0px 0px;
-    background: linear-gradient(90deg,#dc5925 50%,#70c570 50%);
+    background:#dc5925;
 }	
 	
 	
