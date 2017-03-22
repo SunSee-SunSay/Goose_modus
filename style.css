@@ -510,15 +510,28 @@ body {
     border-radius: 250px 250px 0px 0px;
 }
 
+.half_c {
+	position:relative;
+	position: relative;
+    bottom: 20%;
+    left: 34%;
+}
+
 .half_c .c1 {
+    width: 150px;
+    height: 80px;
+    position: absolute;
+    border-radius: 250px 250px 0px 0px;
+    background: linear-gradient(90deg,#dc5925 50%,#70c570 50%);
+}	
+	
+.half_c .c2 {
 	width: 150px;
     height: 80px;
     position: absolute;
     border-radius: 250px 250px 0px 0px;
-	background: linear-gradient(90deg,#dc5925 50%,#70c570 50%);
+    background: linear-gradient(90deg,#dc5925 50%,#70c570 50%);
 }	
-	
-	
 	
 	
 	
