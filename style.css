@@ -550,14 +550,27 @@ body {
     background:#dc5925;
 }	
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+.half_c .c5 {
+	position: relative;
+    width: 112px;
+    height: 60px;
+    border-radius: 240px 240px 0px 0px;
+    background: #f3f3f3;
+    top: 25%;
+    left: 13%;
+}	
+
+.half_c .c5 span {
+	font-weight:bold;
+	color: #7f8c8c;
+	position: relative;
+	font-size:16em;
+	font-size: 50px;
+    left: 29%;
+    top: 26%;
+}	
+
+.half_c .c4 .c5 span {
+	left: 17%;
+    top: 26%;
 }
