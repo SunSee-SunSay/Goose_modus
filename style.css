@@ -640,6 +640,33 @@ body {
 	background-color:#70c570;
 }
 
+.footer .logo {
+	width: 25%;
+    height: 80%;
+}
+
 .footer .logo h1 {
 	color:white;
+}
+.footer .logo #p1 {
+	color:white;
+	width:83%;
+	line-height:1.5;
+}
+
+.footer .logo #p2 {
+	color:white;
+	line-height:1.5;
+	/*width: 45%;*/
+}
+
+.container {
+	width:1200px;
+	min-height: 1px;
+}
+.col-md-4 {
+	display: block;
+	float: left;
+	width: 33.3333333%;
+	min-height: 1px;
 }
