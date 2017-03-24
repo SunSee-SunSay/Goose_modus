@@ -625,13 +625,19 @@ body {
     display: inline-block;
     width: 206px;
     height: 100px;
-    background-color: red;
+    background-color: #f8f8f8;
     border-radius: 5px;
     margin-right: 25px;
 }
 
 .blocks .b1 {
     margin-left: 13%;
+}
+
+.blocks img {
+	width: 86%;
+    height: 97%;
+	margin-left: 5%;
 }
 
 .footer {
