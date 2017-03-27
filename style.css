@@ -647,32 +647,75 @@ body {
 }
 
 .footer .logo {
+	position: relative;
+    top: 13%;
 	width: 25%;
-    height: 80%;
+    height: 65%;
+	margin-left: 10%;
 }
 
 .footer .logo h1 {
 	color:white;
+	margin: 0px;
+	margin-bottom: 7%;
 }
 .footer .logo #p1 {
 	color:white;
 	width:83%;
 	line-height:1.5;
+	margin-bottom: 7%;
 }
 
 .footer .logo #p2 {
 	color:white;
 	line-height:1.5;
-	/*width: 45%;*/
 }
 
-.container {
-	width:1200px;
-	min-height: 1px;
+.footer .company {
+    color: white;
+    list-style-type: none;
+    width: 10%;
+    position: relative;
+    left: 35%;
+    bottom: 55%;
+	
 }
-.col-md-4 {
-	display: block;
-	float: left;
-	width: 33.3333333%;
-	min-height: 1px;
+
+.footer .company ul,
+.footer .community ul {
+	list-style-type:none;
+	line-height:1.5;
+}
+
+.footer .company h3,
+.footer .community h3 {
+	margin-left: 12%;
+	color:#386238;
+	font-size: 22px;
+}
+
+.footer .community {
+	color: white;
+    list-style-type: none;
+    width: 10%;
+    position: relative;
+    left: 46%;
+    bottom: 108%;
+}
+
+.blog {
+	bottom: 148%;
+    position: relative;
+    left: 61%;
+	width: 25%;
+}
+
+.blog .i1,
+.blog .i2 {
+	background: #386238;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    text-align: center;
+    float: left;
 }
