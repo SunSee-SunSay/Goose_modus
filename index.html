@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
+		<iframe id="iframe-metro" frameborder="0" src="https://sinedd1996.github.io/567775-sedona/" width="100%" scrolling="no" style="vertical-align: bottom"></iframe>
 		<div class="header">
 			<div class="main-title">
 				<span><strong>MODUS</strong>versus</span>
@@ -243,5 +244,19 @@
 						</div>
 					</div>	
 			</div>
+
+			<script>
+				const iframeMetro = document.getElementById('iframe-metro');
+
+				window.addEventListener('message', (event) => {
+				  console.log(event)
+				  if (event.origin !== 'https://sinedd1996.github.io/') {
+				    return;
+				  }
+				  const { data } = event;
+				  const { iframeHeight } = JSON.parse(data);
+				  iframeMetro.style.height = `${iframeHeight}px`;
+				})
+			</script>
 	</body>
 </html>
